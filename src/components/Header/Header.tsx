@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from 'i18next';
 import { GlobeIcon } from "./GlobeIcon";
@@ -60,13 +60,13 @@ export const Header = () => {
             <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
                <ul className="navbar-nav">
                   <li className="nav-item ml-2">
-                     <Link to='/home' className="nav-link">{t("home")}</Link>
+                     <NavLink to='/home' className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t("home")}</NavLink>
                   </li>
                   <li className="nav-item">
-                     <Link to='/todo-list' className="nav-link">Todo List</Link>
+                     <NavLink to='/todo-list'className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>Todo List</NavLink>
                   </li>
                   <li className="nav-item">
-                     <Link to='/github-api' className="nav-link">GitHub API</Link>
+                     <NavLink to='/github-api' className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>GitHub API</NavLink>
                   </li>
                   <li className="nav-item">
                      <div className="dropdown">
