@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-trainee-app/static/css/main.42658ef5.css",
-    "main.js": "/react-trainee-app/static/js/main.959d0f94.js",
+    "main.js": "/react-trainee-app/static/js/main.3717eb86.js",
     "static/media/do.svg": "/react-trainee-app/static/media/do.d2287a1e1eee0805fc27.svg",
     "static/media/rs.svg": "/react-trainee-app/static/media/rs.dc155455e86e12200cb5.svg",
     "static/media/bo.svg": "/react-trainee-app/static/media/bo.e0a90fef5f7c6c6ab66f.svg",
@@ -272,10 +272,10 @@
     "static/media/bd.svg": "/react-trainee-app/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/id.svg": "/react-trainee-app/static/media/id.f624e2c8444a7794b357.svg",
     "main.42658ef5.css.map": "/react-trainee-app/static/css/main.42658ef5.css.map",
-    "main.959d0f94.js.map": "/react-trainee-app/static/js/main.959d0f94.js.map"
+    "main.3717eb86.js.map": "/react-trainee-app/static/js/main.3717eb86.js.map"
   },
   "entrypoints": [
     "static/css/main.42658ef5.css",
-    "static/js/main.959d0f94.js"
+    "static/js/main.3717eb86.js"
   ]
 }
