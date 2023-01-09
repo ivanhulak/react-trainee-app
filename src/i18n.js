@@ -11,7 +11,7 @@ i18n
       supportedLngs: ['en', 'ukr', 'ru'],
       backend: {
          // translation file path
-         loadPath: '/assets/i18n/{{ns}}/{{lng}}.json',
+         loadPath: '/react-trainee-app/assets/i18n/{{ns}}/{{lng}}.json',
       },
       fallbackLng: "en",
       detection: {
